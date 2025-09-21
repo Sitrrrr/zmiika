@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Змійка</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Бали: <span id="score">0</span></h1>
+  <div class="container">
+    <div id="controls">
+      <button id="up">⬆</button>
+      <button id="left">⬅</button>
+      <button id="right">➡</button>
+      <button id="down">⬇</button>
+      <button id="pause">⏸ Пауза</button>
+    </div>
+    <canvas id="game" width="400" height="400"></canvas>
+  </div>
+  <audio id="eatSound" src="sounds/eat.mp3"></audio>
+<audio id="turnSound" src="sounds/turn.mp3"></audio>
+<audio id="loseSound" src="sounds/lose.mp3"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
