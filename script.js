@@ -17,7 +17,7 @@ let gameOver = false;
 let paused = false;
 
 let lastTime = 0;
-const speed = 200; // мс між кадрами
+const speed = 200;
 
 function drawGrid() {
   ctx.strokeStyle = '#ddd';
